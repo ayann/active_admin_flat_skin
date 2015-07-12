@@ -7,18 +7,18 @@ Flat skin for active admin.
 <table>
   <tr>
     <td>
-      <a href="./doc/active-skin-login.png"><img src="./doc/active-skin-login.png"></a>
+      <a href="./doc/1.jpg"><img src="./doc/1.jpg"></a>
     </td>
     <td>
-      <a href="./doc/active-skin-menu.png"><img src="./doc/active-skin-menu.png"></a>
+      <a href="./doc/2.jpg"><img src="./doc/2.jpg"></a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="./doc/active-skin-users.png"><img src="./doc/active-skin-users.png"></a>
+      <a href="./doc/3.jpg"><img src="./doc/3.jpg"></a>
     </td>
     <td>
-      <a href="./doc/active-skin-edit.png"><img src="./doc/active-skin-edit.png"></a>
+      <a href="./doc/4.jpg"><img src="./doc/4.jpg"></a>
     </td>
   </tr>
 </table>
