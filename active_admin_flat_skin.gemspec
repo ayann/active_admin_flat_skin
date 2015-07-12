@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Flat design skin for active admin.}
   spec.description   = %q{Flat design skin for active admin.}
-  spec.homepage      = "https://github.com/ayann/active_admin_flat_skin"
+  spec.homepage      = "http://ayann.github.io/active_admin_flat_skin"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
