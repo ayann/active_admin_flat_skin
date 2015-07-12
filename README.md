@@ -1,12 +1,33 @@
 # ActiveAdminFlatSkin
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/active_admin_flat_skin`. To experiment with that code, run `bin/console` for an interactive prompt.
+Flat skin for active admin.
 
-TODO: Delete this and the text above, and describe your gem
+## Screens
+
+<table>
+  <tr>
+    <td>
+      <a href="./doc/active-skin-login.png"><img src="./doc/active-skin-login.png"></a>
+    </td>
+    <td>
+      <a href="./doc/active-skin-menu.png"><img src="./doc/active-skin-menu.png"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="./doc/active-skin-users.png"><img src="./doc/active-skin-users.png"></a>
+    </td>
+    <td>
+      <a href="./doc/active-skin-edit.png"><img src="./doc/active-skin-edit.png"></a>
+    </td>
+  </tr>
+</table>
 
 ## Installation
 
-Add this line to your application's Gemfile:
+As active_skin is the css theme for the [active_admin](https://github.com/gregbell/active_admin) administration framework - you have to install if first.
+
+Having active admin installed add the following line to your application's Gemfile:
 
 ```ruby
 gem 'active_admin_flat_skin'
@@ -20,9 +41,64 @@ Or install it yourself as:
 
     $ gem install active_admin_flat_skin
 
+
 ## Usage
 
-TODO: Write usage instructions here
+include active flat skin css
+
+    # active_admin.css.scss
+
+    @import "active_admin/mixins";
+    @import "active_admin/base";
+    ...
+    @import "active_admin_flat_skin";
+    ...
+
+include active flat skin js
+
+    # active_admin.js
+
+    //= require active_admin/base
+    ...
+    //= require active_admin_flat_skin
+    ...
+
+You can even change basic colors of the theme by placing some other variables:
+
+    ...
+    $panelBorder: #babdc5;
+    $skinActiveColor: #e73c3c;
+    $bodyColor: rgba(236, 240, 241, 0.48);
+    $skinBlack: rgb(55, 71, 79);
+    $panelHeaderBck: $skinBlack;
+    $skinBlackLight: rgb(69, 90, 100);
+    $textGray: rgb(174, 179, 181);
+    $skinTextColor: #1e2a33;
+    $skinTextActiveColor: white;
+    $skinTextTable: #7f8c8d;
+    $skinHeaderBck: #1e2a33;
+    ...
+
+### Color examples
+
+<table>
+  <tr>
+    <td>
+      <a href="./doc/color1.png"><img src="./doc/color1.png"></a>
+    </td>
+    <td>
+      <a href="./doc/color2.png"><img src="./doc/color2.png"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="./doc/color3.png"><img src="./doc/color3.png"></a>
+    </td>
+    <td>
+      <a href="./doc/color4.png"><img src="./doc/color4.png"></a>
+    </td>
+  </tr>
+</table>
 
 ## Development
 
@@ -32,7 +108,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/active_admin_flat_skin/fork )
+1. Fork it ( https://github.com/ayann/active_admin_flat_skin/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
