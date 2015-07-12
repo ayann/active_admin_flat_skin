@@ -1,4 +1,5 @@
 # ActiveAdminFlatSkin
+[![Gem Version](https://badge.fury.io/rb/active_admin_flat_skin.svg)](http://badge.fury.io/rb/active_admin_flat_skin)
 
 Flat skin for active admin.
 
