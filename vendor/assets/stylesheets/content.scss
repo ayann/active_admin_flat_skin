@@ -1,0 +1,76 @@
+.title_bar#title_bar{
+  width: 84.1%;
+  float: right;
+  // background-color: rgb(255, 255, 255);
+  background-color: rgb(224, 224, 224);
+  box-shadow: none;
+  background-image: none;
+  border: none;
+  padding: 9px 30px !important;
+  h2{
+    color: #5e6469;
+  }
+
+  .action_items span.action_item > a, .action_items span.action_item > .dropdown_menu > a{
+    margin-bottom: 2px;
+  }
+}
+
+#active_admin_content.with_sidebar{
+  #main_content{
+      margin-right: 0 !important;
+    &.with_side{
+      margin-right: 300px !important;
+    }
+  }
+}
+
+#active_admin_content{
+  margin-bottom: 30px;
+  float: right;
+  width: 77%;
+
+  #main_content{
+    .table_actions{
+      .member_link{
+        border-radius: 2px;
+        background-color: red;
+        margin: 0 5px 5px;
+        color: #fff;
+        text-decoration: none;
+        padding: 2px 8px;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+      .view_link{
+        padding: 2px 7px;
+        background-color: #78CD51;
+        &:hover{
+          background-color: darken(#78CD51, 5);
+        }
+      }
+      .edit_link{
+        background-color: #41CAC0;
+        &:hover{
+          background-color: darken(#41CAC0, 5);
+        }
+      }
+      .delete_link{
+        background-color: #FF6C60;
+        &:hover{
+          background-color: darken(#FF6C60, 5);
+        }
+      }
+    }
+  }
+}
+
+#timeline-content{margin-top: 0; .timeline{margin-bottom: 0; margin-top: 0;}}
+
+.ui-dialog .ui-dialog-buttonpane button{
+  line-height: 6px;
+  &:last-child{
+    line-height: 6px;
+  }
+}

@@ -1,0 +1,129 @@
+.header#header{
+  padding: 0;
+  width: 16%;
+  overflow: hidden;
+  float: left;
+  height: 92.8% !important;
+  background-color: $skinBlack;
+  box-shadow: none;
+  position: fixed;
+
+  .header-item, .site_title{
+    display: block !important;
+    width: 100%;
+  }
+
+  .header-item.tabs{
+    overflow-x: scroll;
+  }
+
+  .site_title{
+    padding: 10px 0;
+    margin: 0;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 22px;
+    background-color: $skinActiveColor;
+  }
+
+  .header-item.tabs#tabs{
+    li{
+      display: block;
+      margin-bottom: 20px !important;
+
+      a{
+        height: 35px;
+        line-height: 35px;
+        color: $textGray !important;
+        font-size: 14px;
+        transition: all .3s;
+      }
+
+      &.current{
+        a{
+          color: #fff !important;
+        }
+
+        &:hover{
+          a{
+            margin: -10px 0;
+          }            
+        }
+      }
+
+      &:hover{
+        a{
+          margin: 0;
+          background-color: $skinBlackLight;
+        }
+      }
+
+      &.has_nested{
+        ul{
+          margin: 0;
+          width: 100%;
+          background-color: $skinBlackLight;
+
+          li{
+            a{
+              line-height: inherit;
+              height: inherit;
+            }
+          }
+
+          &.slided_down{
+            display: block;
+            position: relative;
+            float: none;
+            border-radius: 0;
+            // padding: 0;
+            padding: 3px 0px 5px 0;
+            background-color: $skinBlackLight;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.8) inset;
+
+            li{
+              &:hover{
+                a{
+                  color: $skinActiveColor !important;
+                }
+              }
+            }
+          }
+        }
+
+        &:hover{
+          ul{
+            display: none;
+            padding: 3px 0px 5px 0;
+            background-color: $skinBlackLight;
+          }
+        }
+      }
+
+      &.current.has_nested{
+        .slided_down{
+          margin-top: 5px;
+          a{
+            background-color: transparent !important;
+          }
+          .current{
+            a{
+              color: $skinActiveColor !important;
+            }
+          }       
+        }
+        &:hover{
+          .slided_down{
+            a{margin: 0 !important;}
+          }            
+        }
+      }
+    }
+  }
+
+  #utility_nav{
+    padding: 0;
+  }
+}

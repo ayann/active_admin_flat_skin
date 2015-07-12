@@ -1,0 +1,12 @@
+#footer{
+  p{float: left;}
+  #utility_nav{
+    float: right;
+    margin: 0;
+    li{
+      display: inline-block !important;
+      height: auto !important;
+      vertical-align: top;
+    }
+  }
+}
