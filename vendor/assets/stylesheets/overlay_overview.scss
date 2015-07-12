@@ -1,0 +1,69 @@
+.state-overview{
+  width: 47%;
+  display: inline-block;
+  margin-right: 10px;
+  .panell{
+    border: none;
+    box-shadow: none;
+    margin-bottom: 20px;
+    background-color: #F5F7F8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    .terques {
+      background: #6ccac9;
+      &.red{
+        background: #FF6C60;
+      }
+      &.yellow{
+        background: #F8D347;
+      }
+      &.blue{
+        background: #57C8F2;
+      }
+    }
+  
+    .symbol {
+      width: 28%;
+      padding: 25px 15px;
+      border-radius: 4px 0px 0px 4px;
+    
+      .fa {
+        color: #fff;
+        font-size: 50px;
+      }
+    }
+
+    .symbol, .value {
+      display: inline-block;
+      text-align: center;
+    }
+  
+    .value {
+      // float: right;
+      width: 50%;
+      // line-height: 45px;
+      padding-top: 30px;
+      .count {
+        font-weight: 300;
+        font-size: 190%;
+      }
+      .count, p {
+        margin: 0;
+        padding: 0;
+        color: #000;
+      }
+    }
+  }
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: rgba(0,0,0,0.5); /*dim the background*/
+  display: none;
+}
