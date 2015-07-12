@@ -84,18 +84,15 @@ You can even change basic colors of the theme by placing some other variables:
 <table>
   <tr>
     <td>
-      <a href="./doc/color1.png"><img src="./doc/color1.png"></a>
+      <a href="./files/color1.png"><img src="./files/color1.png"></a>
     </td>
     <td>
-      <a href="./doc/color2.png"><img src="./doc/color2.png"></a>
+      <a href="./files/color2.png"><img src="./files/color2.png"></a>
     </td>
   </tr>
   <tr>
-    <td>
-      <a href="./doc/color3.png"><img src="./doc/color3.png"></a>
-    </td>
-    <td>
-      <a href="./doc/color4.png"><img src="./doc/color4.png"></a>
+    <td colspan=2>
+      <a href="./files/color3.png"><img src="./files/color3.png"></a>
     </td>
   </tr>
 </table>
