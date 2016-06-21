@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
   if ($("#filters_sidebar_section").length > 0) {
     $("#main_content").prepend(
       $('<div class="bloc">').append(
-        $('<a>').text('Afficher les filtres').attr({
+        $('<a>').text('<%= I18n.t 'active_admin.filters.buttons.filter' %>').attr({
           href: '#value', id:'diplay-filter'
         })
       )
@@ -39,4 +39,7 @@ jQuery(document).ready(function($) {
       $(this).find('ul').slideToggle().toggleClass('slided_down');
     });
   });
+
+
+
 });
