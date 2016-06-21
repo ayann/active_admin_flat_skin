@@ -63,12 +63,6 @@ include also font awesome
     
 include active flat skin js
 
-    @import "active_admin/mixins";
-    @import "active_admin/base";
-    ...
-    @import "active_admin_flat_skin";
-    ...
-
     # active_admin.js
 
     //= require active_admin/base
