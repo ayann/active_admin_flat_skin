@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
+require 'font-awesome-rails'
 require "active_admin_flat_skin"
 
 # You can add fixtures and/or initialization code here to make experimenting
@@ -9,6 +10,7 @@ require "active_admin_flat_skin"
 # (If you use this, don't forget to add pry to your Gemfile!)
 # require "pry"
 # Pry.start
+
 
 require "irb"
 IRB.start
