@@ -55,6 +55,14 @@ include active flat skin css
     @import "active_admin_flat_skin";
     ...
 
+include also font awesome 
+
+    # active_admin.css.scss
+     
+    @import "font-awesome";
+    
+    //in some case should be specified css ( @import "font-awesome.css"; )
+    
 include active flat skin js
 
     # active_admin.js
