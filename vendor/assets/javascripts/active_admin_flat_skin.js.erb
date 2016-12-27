@@ -4,9 +4,9 @@ jQuery(document).ready(function($) {
   utility_nav = $('#utility_nav').detach();
   $('#footer').append(utility_nav);
 
-  $('.delete_link').html($('<span>').addClass('fa fa-trash'));
-  $('.edit_link').html($('<span>').addClass('fa fa-pencil'));
-  $('.view_link').html($('<span>').addClass('fa fa-eye'));
+  $('.delete_link').html($('<i>').addClass('fa fa-trash' ));
+  $('.edit_link'  ).html($('<i>').addClass('fa fa-pencil'));
+  $('.view_link'  ).html($('<i>').addClass('fa fa-eye'   ));
 
   if ($("#filters_sidebar_section").length > 0) {
     $("#main_content").prepend(
