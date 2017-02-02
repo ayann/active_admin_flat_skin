@@ -28,6 +28,10 @@
     background-color: $skinActiveColor;
   }
 
+  .header-item.tabs{
+    overflow-x: auto;
+  }
+
   .header-item.tabs#tabs{
     li{
       display: block;
@@ -49,7 +53,7 @@
         &:hover{
           a{
             margin: -10px 0;
-          }            
+          }
         }
       }
 
@@ -112,12 +116,12 @@
             a{
               color: $skinActiveColor !important;
             }
-          }       
+          }
         }
         &:hover{
           .slided_down{
             a{margin: 0 !important;}
-          }            
+          }
         }
       }
     }
