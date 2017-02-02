@@ -3,7 +3,7 @@
   width: 16%;
   overflow: hidden;
   float: left;
-  height: 92.9% !important;
+  height: calc(100% - 51px) !important;
   background-color: $skinBlack;
   box-shadow: none;
   position: fixed;
