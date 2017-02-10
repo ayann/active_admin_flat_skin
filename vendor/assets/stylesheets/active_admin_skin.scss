@@ -25,6 +25,7 @@ html {
     ul.tabs {
       padding: 0;
       font-size: 0;
+      height: calc(100% - 72px);
     }
     ul.tabs > li:hover > a, ul.tabs > li.current > a {
       color: $skinTextActiveColor;
@@ -422,7 +423,7 @@ html {
   @each $width in $width-list {
     .block-#{$width} {
       float: none;
-      width: #{$width}% !important;
+      width: unquote("#{$width}% !important");
       display: block;
       margin: 0 auto;
       overflow: hidden;
