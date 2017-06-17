@@ -443,6 +443,8 @@ html {
   }
   body.logged_in {
     .flashes {
+      width: 84.1%;
+      float: right;
       .flash {
         position: inherit;
         top: 0;
