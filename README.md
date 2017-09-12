@@ -45,51 +45,60 @@ Or install it yourself as:
 
 ## Usage
 
-include active flat skin css
+Include active_admin_flat_skin CSS:
 
-    # active_admin.css.scss
+```scss
+# active_admin.css.scss
 
-    @import "active_admin/mixins";
-    @import "active_admin/base";
-    ...
-    @import "active_admin_flat_skin";
-    ...
+@import "active_admin/mixins";
+@import "active_admin/base";
+...
+@import "active_admin_flat_skin";
+...
+```
 
-include also font awesome 
+Include also Font Awesome:
 
-    # active_admin.css.scss
-     
-    @import "font-awesome";
+```scss
+# active_admin.css.scss
+@import "font-awesome";
     
-    //in some case should be specified css ( @import "font-awesome.css"; )
-    
-include active flat skin js
+// In some cases .css should be specified ( @import "font-awesome.css"; )
+```
 
-    # active_admin.js
+Include active_admin_flat_skin JS:
 
-    //= require active_admin/base
-    ...
-    //= require active_admin_flat_skin
-    ...
+```js
+# active_admin.js
+
+//= require active_admin/base
+...
+//= require active_admin_flat_skin
+...
+```
 
 You can even change basic colors of the theme by placing some other variables:
 
-    ...
-    $panelBorder: #babdc5;
-    $skinActiveColor: #e73c3c;
-    $bodyColor: rgba(236, 240, 241, 0.48);
-    $skinBlack: rgb(55, 71, 79);
-    $panelHeaderBck: $skinBlack;
-    $skinBlackLight: rgb(69, 90, 100);
-    $textGray: rgb(174, 179, 181);
-    $skinTextColor: #1e2a33;
-    $skinTextActiveColor: white;
-    $skinTextTable: #7f8c8d;
-    $skinHeaderBck: #1e2a33;
-    ...
+```scss
+...
+$panelBorder: #babdc5;
+$skinActiveColor: #e73c3c;
+$bodyColor: rgba(236, 240, 241, 0.48);
+$skinBlack: rgb(55, 71, 79);
+$panelHeaderBck: $skinBlack;
+$skinBlackLight: rgb(69, 90, 100);
+$textGray: rgb(174, 179, 181);
+$skinTextColor: #1e2a33;
+$skinTextActiveColor: white;
+$skinTextTable: #7f8c8d;
+$skinHeaderBck: #1e2a33;
+...
+```
+
 
 ### Color examples
 
+```html
 <table>
   <tr>
     <td colspan=2>
@@ -105,6 +114,7 @@ You can even change basic colors of the theme by placing some other variables:
     </td>
   </tr>
 </table>
+```
 
 ## Contributing
 
