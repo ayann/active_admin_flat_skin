@@ -42,6 +42,11 @@ Or install it yourself as:
 
     $ gem install active_admin_flat_skin
 
+Install font awesome
+
+```ruby
+gem 'font-awesome-rails'
+```
 
 ## Usage
 
