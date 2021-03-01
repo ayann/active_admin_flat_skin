@@ -53,7 +53,7 @@ gem 'font-awesome-rails'
 Include active_admin_flat_skin CSS:
 
 ```scss
-# active_admin.css.scss
+# app/assets/stylesheets/active_admin[.css].scss
 
 @import "active_admin/mixins";
 @import "active_admin/base";
@@ -65,7 +65,7 @@ Include active_admin_flat_skin CSS:
 Include also Font Awesome:
 
 ```scss
-# active_admin.css.scss
+# app/assets/stylesheets/active_admin[.css].scss
 @import "font-awesome";
     
 // In some cases .css should be specified ( @import "font-awesome.css"; )
@@ -74,11 +74,22 @@ Include also Font Awesome:
 Include active_admin_flat_skin JS:
 
 ```js
-# active_admin.js
+# app/assets/javascripts/active_admin.js
 
 //= require active_admin/base
 ...
 //= require active_admin_flat_skin
+...
+```
+
+Or if you use coffee script, include active_admin_flat_skin JS:
+
+```coffee
+# app/assets/javascripts/active_admin.js.coffee
+
+#= require active_admin/base
+...
+#= require active_admin_flat_skin
 ...
 ```
 
